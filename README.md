@@ -1,13 +1,34 @@
-- 👋Hola soy @sontoriyama también @SonGokuCoder y hace un quatro años y pico que soy desarrollador de apps, en especial páginas web de ecommerce o lo que sea. Full-Stack Mern con plasticidad, tirando a Next.js o Astro.js dependiendo del dinamismo o si se necesita ssr o estático.
-- 👀 Me apasiona la programación y especialmente javascript. Mi framework favorito es Next y la libreria favorita React ya que ayuda conocerlo tanto para Next como para React Native para programar para Android i iOS es con lo que me siento más a gusto. También me encantan Remix, Astro y Trpc.
-- En mi primer trabajo he aprendido mucho de mobile first y un diseño responsive de pequeño a grande, un paradigma recomendado en muchos casos por sus múltiples ventajas y poco usado (la mayoria de veces se hace el diseño de grande a pequeño, de desktop a mobil y eso conlleva desventajas (más codigo = más lento, más probabilidades de errores, menos posicionamiento al index Seo de Google, etc.)
-- Me encanta ayudarte a decidir si tu página mejor servirse en ssr, csr, ssg, incremental, etc, o partes de la página en una u otra forma.
-- Normalmente uso base de datos mongodb aunque no tengo problemas con ninguna, litesql o posgressql con prisma o.. incluso si quisieras podriamos usar un exel tuyo como base de datos, aunque no lo recomiendo si no es que es una tienda muy pequeña ;).
-- 🌱 Ahora mismo estoy aprendiendo a utilizar webGL con THREE además de librerias de maching learning como Tensoflow y otras, para entrenar modelos llm, vlm, multimodal etc, utilizarlos y verlos reflejados en una UI. IA's de selección, de predicción...
-- 💞️ Estoy buscando en colaborar ... Me ofrezco freelancer para qualquier tienda o idea que alguien tenga o participar en un proyecto que sea beneficioso para todos lo cual hace qu programarlo aún tenga más motivación
-- 📫 Para encontrarme ... en songokumbl@gmail.com  o  miscodices@gmail.com  o cuando no tengo mobil que casi pierdo mi cuenta de github songokusensembl@gmail.com jeje
+Hi there! I'm Son-Goku-Coder (@sontoriyama) 👋
+Full Stack Engineer & Open Source Contributor
+Especialista en Arquitecturas de Alto Rendimiento & Integración de IA
 
-<!---
-sontoriyama/sontoriyama is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🚀 De autodidacta apasionado a colaborador en grandes proyectos de IA. Llevo más de 4 años rompiendo barreras en el desarrollo web y de software, evolucionando desde el stack MERN clásico hacia arquitecturas complejas de baja latencia y sistemas Edge.
+
+🏆 Recent Achievements
+Contribuidor Oficial en QwenLM: He colaborado en el repositorio qwen-code (Alibaba Cloud) mejorando la documentación y usabilidad de la CLI para la integración del protocolo MCP (Model Context Protocol).
+Arquitectura Avanzada en Chrome: Desarrollando interfaces de voz en tiempo real usando Manifest V3, Offscreen API y gestión de memoria optimizada.
+
+🛠 Tech Stack & Arsenal
+No me limito a un framework; elijo la mejor herramienta para el rendimiento.
+Core: JavaScript (ESNext), TypeScript, Bun (Current favorite for speed).
+Frontend: Next.js, React, Astro (para estáticos/content-heavy), TailwindCSS.
+Backend & Runtime: Node.js, Bun (Native WebSockets), Express, Trpc.
+Data & State: MongoDB, PostgreSQL (Prisma), In-Memory File Systems (Streams/Buffers).
+AI & ML Engineering: Integration of LLMs (Gemini, Qwen), MCP implementation, Whisper (ASR), TTS pipelines, WebGL/Three.js visualizations.
+Mobile: React Native (Android/iOS).
+
+🔭 Current Project: The "Hyper-Voice" Extension
+Estoy construyendo una extensión de navegador de última generación para liberar a los desarrolladores del teclado y cuidar su salud física.
+Architecture: Backend en Bun con WebSockets nativos para latencia sub-milisegundo.
+Performance: Implementación de piping de memoria con buffers de 16kb para manejar streaming de audio sin tocar disco y evitar el bloqueo del Garbage Collector.
+Challenge: Superando las limitaciones de Manifest V3 mediante documentos Offscreen para procesamiento persistente.
+
+📜 My Story
+Empecé hace 4 años estudiando día y noche (kudos a la comunidad: Midu, Fazt). Mi filosofía es Mobile First y optimización extrema. He pasado de maquetar ecommerce a diseñar sistemas que procesan audio en tiempo real.
+"No busco solo que funcione, busco que vuele. Si hay que bajar al nivel de los buffers y los streams para optimizar, ahí me encontrarás."
+
+📫 Connect with me
+Estoy abierto a colaboraciones en proyectos Open Source, integraciones de IA o desafíos de arquitectura web.
+
+Email: songokumbl@gmail.com
+GitHub: sontoriyama
