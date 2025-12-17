@@ -1,34 +1,63 @@
-Hi there! I'm Son-Goku-Coder (@sontoriyama) 👋
-Full Stack Engineer & Open Source Contributor
-Especialista en Arquitecturas de Alto Rendimiento & Integración de IA
+# Hi there! I'm Son-Goku-Coder (@sontoriyama) 👋
 
-🚀 De autodidacta apasionado a colaborador en grandes proyectos de IA. Llevo más de 4 años rompiendo barreras en el desarrollo web y de software, evolucionando desde el stack MERN clásico hacia arquitecturas complejas de baja latencia y sistemas Edge.
+### Full Stack Engineer & Open Source Contributor
+**High-Performance Architecture & AI Integration Specialist**
 
-🏆 Recent Achievements
-Contribuidor Oficial en QwenLM: He colaborado en el repositorio qwen-code (Alibaba Cloud) mejorando la documentación y usabilidad de la CLI para la integración del protocolo MCP (Model Context Protocol).
-Arquitectura Avanzada en Chrome: Desarrollando interfaces de voz en tiempo real usando Manifest V3, Offscreen API y gestión de memoria optimizada.
+🚀 **From a passionate self-taught developer to a contributor in major AI projects.**
+I have been breaking barriers in web and software development for over 4 years, evolving from the classic MERN stack towards complex low-latency architectures, Edge systems, and AI Agents.
 
-🛠 Tech Stack & Arsenal
-No me limito a un framework; elijo la mejor herramienta para el rendimiento.
-Core: JavaScript (ESNext), TypeScript, Bun (Current favorite for speed).
-Frontend: Next.js, React, Astro (para estáticos/content-heavy), TailwindCSS.
-Backend & Runtime: Node.js, Bun (Native WebSockets), Express, Trpc.
-Data & State: MongoDB, PostgreSQL (Prisma), In-Memory File Systems (Streams/Buffers).
-AI & ML Engineering: Integration of LLMs (Gemini, Qwen), MCP implementation, Whisper (ASR), TTS pipelines, WebGL/Three.js visualizations.
-Mobile: React Native (Android/iOS).
+---
 
-🔭 Current Project: The "Hyper-Voice" Extension
-Estoy construyendo una extensión de navegador de última generación para liberar a los desarrolladores del teclado y cuidar su salud física.
-Architecture: Backend en Bun con WebSockets nativos para latencia sub-milisegundo.
-Performance: Implementación de piping de memoria con buffers de 16kb para manejar streaming de audio sin tocar disco y evitar el bloqueo del Garbage Collector.
-Challenge: Superando las limitaciones de Manifest V3 mediante documentos Offscreen para procesamiento persistente.
+### 🏆 Recent Achievement: Big Tech Contributor (Alibaba Cloud)
 
-📜 My Story
-Empecé hace 4 años estudiando día y noche (kudos a la comunidad: Midu, Fazt). Mi filosofía es Mobile First y optimización extrema. He pasado de maquetar ecommerce a diseñar sistemas que procesan audio en tiempo real.
-"No busco solo que funcione, busco que vuele. Si hay que bajar al nivel de los buffers y los streams para optimizar, ahí me encontrarás."
+A dream come true! I have officially participated in the development of the **QwenLM** ecosystem, one of the most powerful LLMs in the world.
 
-📫 Connect with me
-Estoy abierto a colaboraciones en proyectos Open Source, integraciones de IA o desafíos de arquitectura web.
+*   **The Context:** I contributed to `qwen-code` (Qwen-Agent). It is worth noting that **`qwen-cli` is architecturally inspired by Google's `gemini-cli`**, demonstrating that I am working with code standards adopted by major tech giants.
+*   **The Contribution:** I implemented critical logic for the **Model Context Protocol (MCP)** integration, fixing gaps in the agent instructions.
+*   **The Background:** This wasn't just a copy-paste job. I achieved this by deep-diving into advanced Agentic AI and MCP concepts (special dedication to my self-study marathons with *AI Anytime* courses) to truly understand how to give LLMs "superpowers" via tools.
 
-Email: songokumbl@gmail.com
-GitHub: sontoriyama
+🔗 **[See my accepted Pull Request: Advanced Logic for MCP Integration](https://github.com/QwenLM/qwen-code/pull/796)**
+
+---
+
+### 🔭 Current Project: "Hyper-Voice" Chrome Extension (Experimental)
+
+I am building an experimental next-gen browser extension with integrated **ASR (Automatic Speech Recognition)** and **TTS (Text-to-Speech)** to free developers from the keyboard and prioritize physical health.
+
+*   **Architecture:** Backend running on **Bun** with native WebSockets to achieve *sub-millisecond* latency.
+*   **Extreme Performance:** Implementation of memory piping with 16kb buffers to handle real-time audio streaming without touching the disk, effectively avoiding Garbage Collector blocking.
+*   **The Challenge:** Overcoming **Manifest V3** limitations by utilizing *Offscreen* documents for persistent and smooth audio processing.
+
+---
+
+### 🛠 Tech Stack & Arsenal
+
+I don't limit myself to a single framework; I choose the tool that makes the code fly.
+
+*   **Core:** JavaScript (ESNext), TypeScript, **Bun** (Current favorite for speed).
+*   **Frontend:** Next.js, React, Astro (for static/content-heavy sites), TailwindCSS.
+*   **Backend & Runtime:** Node.js, **Bun** (Native WebSockets), Express, Trpc.
+*   **Data & State:** MongoDB, PostgreSQL (Prisma), In-Memory File Systems (Streams/Buffers).
+*   **AI & ML Engineering:** Integration of LLMs (Gemini, Qwen), **MCP** implementation, Whisper (ASR), TTS pipelines, WebGL/Three.js visualizations.
+*   **Mobile:** React Native (Android/iOS).
+
+---
+
+### 📜 My Story
+
+I started 4 years ago studying day and night (kudos to the community: Midu, Fazt). My philosophy is *Mobile First* and extreme optimization. I have gone from building e-commerce layouts to designing systems that process real-time audio and collaborating on the codebase of global AI models.
+
+> "I don't just want it to work, I want it to fly. If I have to go down to the level of buffers and streams to optimize, that's where you'll find me."
+
+---
+
+### 📫 Connect with me
+
+I am open to collaborations on Open Source projects, AI integrations (especially Agents and MCP), or complex web architecture challenges.
+
+*   📧 **Email:** songokumbl@gmail.com
+*   💻 **GitHub:** [sontoriyama](https://github.com/sontoriyama)
+
+<!--
+Proud contributor to QwenLM ecosystem
+-->
