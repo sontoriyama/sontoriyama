@@ -1,63 +1,58 @@
-# Hi there! I'm Son-Goku-Coder (@sontoriyama) 👋
+# Pol Figuerola (`@sontoriyama`) 👋
 
-### Full Stack Engineer & Open Source Contributor
-**High-Performance Architecture & AI Integration Specialist**
+### Full-Stack & Security Engineer · Open-Source Contributor
+**High-Performance Browser Architectures, AI Agents (MCP) & Real-Time Audio Streaming**
 
-🚀 **From a passionate self-taught developer to a contributor in major AI projects.**
-I have been breaking barriers in web and software development for over 4 years, evolving from the classic MERN stack towards complex low-latency architectures, Edge systems, and AI Agents.
-
----
-
-### 🏆 Recent Achievement: Big Tech Contributor (Alibaba Cloud)
-
-A dream come true! I have officially participated in the development of the **QwenLM** ecosystem, one of the most powerful LLMs in the world.
-
-*   **The Context:** I contributed to `qwen-code` (Qwen-Agent). It is worth noting that **`qwen-cli` is architecturally inspired by Google's `gemini-cli`**, demonstrating that I am working with code standards adopted by major tech giants.
-*   **The Contribution:** I implemented critical logic for the **Model Context Protocol (MCP)** integration, fixing gaps in the agent instructions.
-*   **The Background:** This wasn't just a copy-paste job. I achieved this by deep-diving into advanced Agentic AI and MCP concepts (special dedication to my self-study marathons with *AI Anytime* courses) to truly understand how to give LLMs "superpowers" via tools.
-
-🔗 **[See my accepted Pull Request: Advanced Logic for MCP Integration](https://github.com/QwenLM/qwen-code/pull/796)**
+🚀 **From a passionate self-taught developer to a contributor in major AI ecosystems.**  
+Over the past 4+ years, I have evolved from full-stack web engineering into low-latency browser systems, edge runtimes, and multi-layered security architectures—focusing on making real-time AI interactions feel instantaneous.
 
 ---
 
-### 🔭 Current Project: "Hyper-Voice" Chrome Extension (Experimental)
+### 🔭 Flagship Project: [Vozflow](https://vozflow.dev) *(Chrome Manifest V3 & Bun)*
 
-I am building an experimental next-gen browser extension with integrated **ASR (Automatic Speech Recognition)** and **TTS (Text-to-Speech)** to free developers from the keyboard and prioritize physical health.
+I am the creator of **[Vozflow](https://vozflow.dev)**, a next-generation Chrome MV3 extension and cloud platform integrating real-time **ASR (Automatic Speech Recognition)**, **Neural TTS (Text-to-Speech)**, and **Context-Aware AI Refinement** directly into any web workflow.
 
-*   **Architecture:** Backend running on **Bun** with native WebSockets to achieve *sub-millisecond* latency.
-*   **Extreme Performance:** Implementation of memory piping with 16kb buffers to handle real-time audio streaming without touching the disk, effectively avoiding Garbage Collector blocking.
-*   **The Challenge:** Overcoming **Manifest V3** limitations by utilizing *Offscreen* documents for persistent and smooth audio processing.
-
----
-
-### 🛠 Tech Stack & Arsenal
-
-I don't limit myself to a single framework; I choose the tool that makes the code fly.
-
-*   **Core:** JavaScript (ESNext), TypeScript, **Bun** (Current favorite for speed).
-*   **Frontend:** Next.js, React, Astro (for static/content-heavy sites), TailwindCSS.
-*   **Backend & Runtime:** Node.js, **Bun** (Native WebSockets), Express, Trpc.
-*   **Data & State:** MongoDB, PostgreSQL (Prisma), In-Memory File Systems (Streams/Buffers).
-*   **AI & ML Engineering:** Integration of LLMs (Gemini, Qwen), **MCP** implementation, Whisper (ASR), TTS pipelines, WebGL/Three.js visualizations.
-*   **Mobile:** React Native (Android/iOS).
+* **Zero-Copy Audio Pipeline:** Engineered with custom `AudioWorklet` processors, dedicated OPFS workers, and `Transferable` memory buffers (`O(1)` RAM overhead) to stream audio seamlessly without touching disk or blocking the V8 Garbage Collector.
+* **Ultra-Low-Latency Runtime:** Powered by **Bun** and **Elysia** microservices with sticky-session cluster routing on Fly.io and real-time NDJSON/WebSocket audio streaming.
+* **Resilient MV3 Architecture:** Deterministic Offscreen document lifecycle management, Single-Actor Storage (SSOT), closed Shadow DOM isolation, and transactional credit ledgers backed by PostgreSQL, Valkey/Redis, Clerk, and Stripe.
 
 ---
 
-### 📜 My Story
+### 🏆 Big Tech Open-Source Contribution: Alibaba Cloud (`@QwenLM`)
 
-I started 4 years ago studying day and night (kudos to the community: Midu, Fazt). My philosophy is *Mobile First* and extreme optimization. I have gone from building e-commerce layouts to designing systems that process real-time audio and collaborating on the codebase of global AI models.
+Official contributor to the **QwenLM** ecosystem, one of the most powerful open-weight LLM families in the world.
 
-> "I don't just want it to work, I want it to fly. If I have to go down to the level of buffers and streams to optimize, that's where you'll find me."
+* **The Context:** Contributed to [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) (Qwen-Agent CLI), architecturally inspired by Google's `gemini-cli`.
+* **The Contribution:** Authored comprehensive integration logic, configuration specifications, and execution guides for the **Model Context Protocol (MCP)**—bridging gaps in agent tool instructions.
+
+🔗 **[See my accepted Pull Request: Model Context Protocol (MCP) Integration (#796)](https://github.com/QwenLM/qwen-code/pull/796)**
 
 ---
 
-### 📫 Connect with me
+### 🛠 Tech Stack & Engineering Arsenal
 
-I am open to collaborations on Open Source projects, AI integrations (especially Agents and MCP), or complex web architecture challenges.
+I don't limit myself to a single framework; I choose the runtime and protocol that make the code fly.
 
-*   📧 **Email:** songokumbl@gmail.com
-*   💻 **GitHub:** [sontoriyama](https://github.com/sontoriyama)
+* **Core & Runtimes:** TypeScript (Strict ESM), JavaScript (ESNext), **Bun**, Node.js
+* **Browser & Frontend:** Chrome Extensions (**Manifest V3**, Service Workers, Offscreen API, OPFS, Web Audio API), React 19, Next.js, Astro, Vite, Tailwind CSS
+* **Backend & Streaming:** **Bun**, Elysia, Hono, Native WebSockets, NDJSON Streaming, tRPC, Express
+* **AI & Multimodal Protocols:** Google Gemini API, QwenLM, **MCP (Model Context Protocol)**, Whisper (ASR), Neural TTS Pipelines, WebGL/Three.js audio visualizations
+* **Data, Security & Infrastructure:** PostgreSQL, Redis / Valkey, Docker, Fly.io, Clerk, Stripe, Runtime Security Hardening
 
-<!--
-Proud contributor to QwenLM ecosystem
--->
+---
+
+### 📜 My Story & Philosophy
+
+I started over 4 years ago studying day and night (kudos to the community: Midu, Fazt) with a focus on *Mobile First* and extreme performance optimization. Today, I design real-time audio streaming systems, harden production runtimes, and collaborate on the codebases of global AI models.
+
+> *"I don't just want it to work, I want it to fly. If I have to go down to the level of ArrayBuffers, streams, and runtime internals to optimize, that's where you'll find me."*
+
+---
+
+### 📫 Connect with Me
+
+I am open to collaborations on **Open Source projects**, **AI Agent & MCP integrations**, **Application Security**, or complex web architecture challenges.
+
+* 🌐 **Product:** [https://vozflow.dev](https://vozflow.dev)
+* 📧 **Email:** [songokumbl@gmail.com](mailto:songokumbl@gmail.com)
+* 💻 **GitHub:** [sontoriyama](https://github.com/sontoriyama)
