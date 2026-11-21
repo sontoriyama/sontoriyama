@@ -3,7 +3,7 @@
 ### Full-Stack & Security Engineer · Open-Source Contributor
 **High-Performance Browser Architectures, AI Agents (MCP) & Real-Time Audio Streaming**
 
-🚀 **From a passionate self-taught developer to a contributor in major AI ecosystems.**  
+🚀 **From a passionate self-taught developer to an upstream contributor at Microsoft, StablyAI, and Alibaba Cloud (`@QwenLM`).**  
 Over the past 4+ years, I have evolved from full-stack web engineering into low-latency browser systems, edge runtimes, and multi-layered security architectures—focusing on making real-time AI interactions feel instantaneous.
 
 ---
@@ -18,14 +18,21 @@ I am the creator of **[Vozflow](https://vozflow.dev)**, a next-generation Chrome
 
 ---
 
-### 🏆 Big Tech Open-Source Contribution: Alibaba Cloud (`@QwenLM`)
+### 🏆 Open-Source Contributions (Big Tech & AI Ecosystems)
 
-Official contributor to the **QwenLM** ecosystem, one of the most powerful open-weight LLM families in the world.
+Active upstream contributor to major developer tools, AI agent orchestrators, and open-weight LLM ecosystems:
 
-* **The Context:** Contributed to [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code) (Qwen-Agent CLI), architecturally inspired by Google's `gemini-cli`.
-* **The Contribution:** Authored comprehensive integration logic, configuration specifications, and execution guides for the **Model Context Protocol (MCP)**—bridging gaps in agent tool instructions.
+* **Microsoft — [`microsoft/intelligent-terminal`](https://github.com/microsoft/intelligent-terminal)** *(Rust & Windows Shell Dispatch)*
+  * **The Fix:** Diagnosed and eliminated JSON quoting/escaping corruption in `wt-agent-hooks` (`PreToolUse`) across Windows `cmd`/PowerShell dispatch using quote-free serialization, restoring deterministic agent tool permissions and adding Rust regression test coverage.
+  * 🔗 **[Merged PR #1407: `fix(wta): avoid escaped quotes in Antigravity PreToolUse hook command`](https://github.com/microsoft/intelligent-terminal/pull/1407)** *(Fixes #1406)*
 
-🔗 **[See my accepted Pull Request: Model Context Protocol (MCP) Integration (#796)](https://github.com/QwenLM/qwen-code/pull/796)**
+* **StablyAI — [`stablyai/orca`](https://github.com/stablyai/orca)** *(TypeScript & AI Agent Orchestration)*
+  * **The Fix:** Fixed Antigravity session resume launch recipes so the resolved `--model` flag is cleanly replayed on conversation follow-ups, preventing empty-model runtime failures while composing cleanly with upstream launch changes.
+  * 🔗 **[Merged PR #43217: `fix(antigravity): replay only resolved --model in resume launch recipe`](https://github.com/stablyai/orca/pull/43217)** *(Fixes #43154)*
+
+* **Alibaba Cloud — [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code)** *(Model Context Protocol & Agent CLI)*
+  * **The Contribution:** Authored integration logic, configuration specifications, and execution guides for the **Model Context Protocol (MCP)** in the Qwen-Agent CLI, bridging critical gaps in agent tool instructions.
+  * 🔗 **[Merged PR #796: Model Context Protocol (MCP) Integration](https://github.com/QwenLM/qwen-code/pull/796)**
 
 ---
 
@@ -33,17 +40,17 @@ Official contributor to the **QwenLM** ecosystem, one of the most powerful open-
 
 I don't limit myself to a single framework; I choose the runtime and protocol that make the code fly.
 
-* **Core & Runtimes:** TypeScript (Strict ESM), JavaScript (ESNext), **Bun**, Node.js
+* **Core & Runtimes:** TypeScript (Strict ESM), JavaScript (ESNext), **Rust**, **Bun**, Node.js
 * **Browser & Frontend:** Chrome Extensions (**Manifest V3**, Service Workers, Offscreen API, OPFS, Web Audio API), React 19, Next.js, Astro, Vite, Tailwind CSS
 * **Backend & Streaming:** **Bun**, Elysia, Hono, Native WebSockets, NDJSON Streaming, tRPC, Express
-* **AI & Multimodal Protocols:** Google Gemini API, QwenLM, **MCP (Model Context Protocol)**, Whisper (ASR), Neural TTS Pipelines, WebGL/Three.js audio visualizations
+* **AI & Multimodal Protocols:** Google Gemini API, QwenLM, **MCP (Model Context Protocol)**, AI Agent Tooling & Hooks, Whisper (ASR), Neural TTS Pipelines, WebGL/Three.js audio visualizations
 * **Data, Security & Infrastructure:** PostgreSQL, Redis / Valkey, Docker, Fly.io, Clerk, Stripe, Runtime Security Hardening
 
 ---
 
 ### 📜 My Story & Philosophy
 
-I started over 4 years ago studying day and night (kudos to the community: Midu, Fazt) with a focus on *Mobile First* and extreme performance optimization. Today, I design real-time audio streaming systems, harden production runtimes, and collaborate on the codebases of global AI models.
+I started over 4 years ago studying day and night (kudos to the community: Midu, Fazt) with a focus on *Mobile First* and extreme performance optimization. Today, I design real-time audio streaming systems, harden production runtimes, and contribute upstream to global developer tools and AI ecosystems.
 
 > *"I don't just want it to work, I want it to fly. If I have to go down to the level of ArrayBuffers, streams, and runtime internals to optimize, that's where you'll find me."*
 
