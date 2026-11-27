@@ -3,7 +3,7 @@
 ### Full-Stack & Security Engineer · Open-Source Contributor
 **High-Performance Browser Architectures, AI Agents (MCP) & Real-Time Audio Streaming**
 
-🚀 **From a passionate self-taught developer to an upstream contributor at Microsoft, StablyAI, and Alibaba Cloud (`@QwenLM`).**  
+🚀 **From a passionate self-taught developer to an upstream contributor at Microsoft, Pydantic, StablyAI, and Alibaba Cloud (`@QwenLM`).**  
 Over the past 4+ years, I have evolved from full-stack web engineering into low-latency browser systems, edge runtimes, and multi-layered security architectures—focusing on making real-time AI interactions feel instantaneous.
 
 ---
@@ -26,6 +26,9 @@ Active upstream contributor to major developer tools, AI agent orchestrators, an
   * **The Fix:** Diagnosed and eliminated JSON quoting/escaping corruption in `wt-agent-hooks` (`PreToolUse`) across Windows `cmd`/PowerShell dispatch using quote-free serialization, restoring deterministic agent tool permissions and adding Rust regression test coverage.
   * 🔗 **[Merged PR #1407: `fix(wta): avoid escaped quotes in Antigravity PreToolUse hook command`](https://github.com/microsoft/intelligent-terminal/pull/1407)** *(Fixes #1406)*
 
+* **Pydantic — [`pydantic/pydantic-ai`](https://github.com/pydantic/pydantic-ai)** *(Python & AI Agent Framework)*
+  * **The Fix:** Verified OpenAI Chat Completions behavior across GPT-5.4, GPT-5.5, and GPT-5.6 variants via live API probes and wired `OpenAIProvider` / `OpenAIChatModel` to raise `ModelRequestRejectedError` pre-flight when function tools are combined with reasoning on affected models—preventing avoidable runtime HTTP 400 failures while preserving working defaults, backed by matrix tests and recorded cassettes.
+  * 🔗 **[Merged PR #14887: `Raise ModelRequestRejectedError before OpenAIChatModel sends tools to GPT-5.4 and GPT-5.6 models with reasoning on`](https://github.com/pydantic/pydantic-ai/pull/14887)** *(Closes #13512; builds on #14369)*
 * **StablyAI — [`stablyai/orca`](https://github.com/stablyai/orca)** *(TypeScript & AI Agent Orchestration)*
   * **The Fix:** Fixed Antigravity session resume launch recipes so the resolved `--model` flag is cleanly replayed on conversation follow-ups, preventing empty-model runtime failures while composing cleanly with upstream launch changes.
   * 🔗 **[Merged PR #43217: `fix(antigravity): replay only resolved --model in resume launch recipe`](https://github.com/stablyai/orca/pull/43217)** *(Fixes #43154)*
@@ -40,7 +43,7 @@ Active upstream contributor to major developer tools, AI agent orchestrators, an
 
 I don't limit myself to a single framework; I choose the runtime and protocol that make the code fly.
 
-* **Core & Runtimes:** TypeScript (Strict ESM), JavaScript (ESNext), **Rust**, **Bun**, Node.js
+* **Core & Runtimes:** TypeScript (Strict ESM), JavaScript (ESNext), **Python**, **Rust**, **Bun**, Node.js
 * **Browser & Frontend:** Chrome Extensions (**Manifest V3**, Service Workers, Offscreen API, OPFS, Web Audio API), React 19, Next.js, Astro, Vite, Tailwind CSS
 * **Backend & Streaming:** **Bun**, Elysia, Hono, Native WebSockets, NDJSON Streaming, tRPC, Express
 * **AI & Multimodal Protocols:** Google Gemini API, QwenLM, **MCP (Model Context Protocol)**, AI Agent Tooling & Hooks, Whisper (ASR), Neural TTS Pipelines, WebGL/Three.js audio visualizations
