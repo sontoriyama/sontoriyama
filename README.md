@@ -29,6 +29,7 @@ Active upstream contributor to major developer tools, AI agent orchestrators, an
 * **Pydantic — [`pydantic/pydantic-ai`](https://github.com/pydantic/pydantic-ai)** *(Python & AI Agent Framework)*
   * **The Fix:** Verified OpenAI Chat Completions behavior across GPT-5.4, GPT-5.5, and GPT-5.6 variants via live API probes and wired `OpenAIProvider` / `OpenAIChatModel` to raise `ModelRequestRejectedError` pre-flight when function tools are combined with reasoning on affected models—preventing avoidable runtime HTTP 400 failures while preserving working defaults, backed by matrix tests and recorded cassettes.
   * 🔗 **[Merged PR #14887: `Raise ModelRequestRejectedError before OpenAIChatModel sends tools to GPT-5.4 and GPT-5.6 models with reasoning on`](https://github.com/pydantic/pydantic-ai/pull/14887)** *(Closes #13512; builds on #14369)*
+
 * **StablyAI — [`stablyai/orca`](https://github.com/stablyai/orca)** *(TypeScript & AI Agent Orchestration)*
   * **The Fix:** Fixed Antigravity session resume launch recipes so the resolved `--model` flag is cleanly replayed on conversation follow-ups, preventing empty-model runtime failures while composing cleanly with upstream launch changes.
   * 🔗 **[Merged PR #43217: `fix(antigravity): replay only resolved --model in resume launch recipe`](https://github.com/stablyai/orca/pull/43217)** *(Fixes #43154)*
